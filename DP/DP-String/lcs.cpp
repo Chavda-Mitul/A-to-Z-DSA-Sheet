@@ -57,7 +57,7 @@ int main(){
 
     string s1 = "acd", s2 = "ced";
     int n1 = s1.length() , n2 = s2.length(); 
-    // cout << lcs(s1,s2,n1-1,n2-1) << endl;
+    // cout << lcs(s1,s2,n1-1,n2-1) << endl;    
     vector<vector<int>> dp(n1,vector<int>(n2,-1));
     // cout << lcsMemoised(s1,s2,n1-1,n2-1,dp) << endl;
     cout << lcsTabulation(s1,s2) << endl;
