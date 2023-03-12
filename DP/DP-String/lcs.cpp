@@ -11,6 +11,7 @@ int lcs(string s1, string s2 ,int i1, int i2){
     //it matched 
     if(s1[i1] == s2[i2]){
         return 1 + lcs(s1,s2,i1-1,i2-1);
+            
     }
 
     // it does not matched 
